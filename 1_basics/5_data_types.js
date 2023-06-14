@@ -183,5 +183,12 @@ console.log(iveMembersArray[0]); // 안유진
 console.log(iveMembersArray[1]); // 가을
 console.log(iveMembersArray[5]); // 이서
 iveMembersArray[0] = '공석';
-console.log(iveMembersArray)
-console.log(typeof iveMembersArray)
+console.log(iveMembersArray);
+console.log(typeof iveMembersArray);
+
+/**
+ * static typing -> 변수를 선언할 때 어떤 타입의 변수를 선언할지 명시한다.
+ * 
+ * dynamic typing -> 변수의 타입을 명시적으로 선언하지 않고 갑에의해 타입을 "추론"한다.
+ * JS -> dynamic typing
+ */
