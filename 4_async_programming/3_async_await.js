@@ -20,7 +20,10 @@ async function runner() {
         const result3 = await getPromise(1);
         console.log(result3);
     } catch (e) {
+        console.log("--- catch e ---");
         console.log(e);
+    } finally {
+        console.log("--- finall ---");
     }
 }
 
