@@ -82,4 +82,18 @@ const subtractTwoNumberArrow = (x: number, y: number): number => {
 
 function doNotReturn(): void {
     console.log('저는 반환을 하지 않습니다');
+
+    // return 3; // error
+    // return;
+}
+
+doNotReturn();
+
+function throwError(): never {
+    // never 타입을 반환하려면 함수가 끝나지 않는 상태를 만들어야함
+    while (true) {}
+}
+
+function throwError2(): never {
+    throw Error();
 }
