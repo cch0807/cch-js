@@ -40,3 +40,15 @@ type CalculationType = (x: number, y: number) => number;
 const add2: CalculationType = function (x, y) {
     return x + y;
 };
+
+const subtract2: CalculationType = function (x, y) {
+    return x - y;
+};
+
+const multiply2: CalculationType = function (x, y) {
+    return x * y;
+};
+
+const divide2: CalculationType = function (x, y) {
+    return x / y;
+};
