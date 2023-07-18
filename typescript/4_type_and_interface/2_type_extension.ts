@@ -118,3 +118,22 @@ const rectangle: TRectangle2 = {
     height: 100,
     width: 200,
 };
+
+interface IHeight {
+    height: number;
+}
+
+interface IRectangle extends IHeight {
+    height: number;
+    // height: string;
+    width: number;
+}
+
+interface IWidth {
+    width: number | string;
+}
+
+interface IRectangle extends IWidth {
+    width: number;
+    height: number;
+}
